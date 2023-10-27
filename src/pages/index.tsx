@@ -48,6 +48,20 @@ const activities = [
       </p>,
     linkTo: "/security",
   },
+  {
+    title: "現代の通信を守る暗号",
+    coverImage: {
+      src: "https://source.unsplash.com/hLvQ4-QEBAE/800x300",
+      alt: "暗号っぽい画像",
+    },
+    description:
+      // prettier-ignore
+      <p>
+        現代の暗号技術は、情報の安全性を確保するための不可欠なツールとして、私たちのデジタル世界に欠かせない存在です。
+        古代から使われるシーザー暗号から、数学的アルゴリズムと強力な計算力を駆使して、データを不可解な形に変換し、不正アクセスから守るRSA暗号まで、進化し続けてきた暗号技術の仕組みを理解してみませんか？
+      </p>,
+    linkTo: "https://kf74-code.pages.dev/",
+  }
 ];
 
 export default function Home(): JSX.Element {
